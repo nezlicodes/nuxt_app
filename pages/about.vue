@@ -14,3 +14,17 @@
     </div>
     
 </template>
+
+<script>
+export default {
+    head() {
+        return {
+            title: 'About this app',
+            meta: [
+                {name: 'description', content: 'this is the about of my app'},
+                {name: 'keywords', content:'nuxt'}
+            ]
+        }
+    }
+}
+</script>
