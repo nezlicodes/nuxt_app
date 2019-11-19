@@ -58,6 +58,12 @@
   border-right: 35px solid transparent;
   border-bottom: 60px solid #fff;
 }
+.page-enter-active, .page-leave-active {
+  transition: opacity .5s
+}
+.page-enter, .page-leave-active {
+  opacity: 0
+}
 
 @keyframes turn {
   100% {

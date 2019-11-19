@@ -1,6 +1,6 @@
 <template>
   <div>
-  <b-navbar toggleable="lg" type="light" variant="dark">
+  <b-navbar toggleable="lg" type="light" variant="light">
     <b-navbar-brand><nuxt-link to="/">NavBar</nuxt-link></b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
